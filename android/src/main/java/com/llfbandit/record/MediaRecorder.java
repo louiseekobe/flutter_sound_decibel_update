@@ -123,7 +123,7 @@ class MediaRecorder implements RecorderBase {
       }
     }
 
-    amp.put("current", recorder.getMaxAmplitude());
+    amp.put("current", current);
     amp.put("max", maxAmplitude);
 
     return amp;
