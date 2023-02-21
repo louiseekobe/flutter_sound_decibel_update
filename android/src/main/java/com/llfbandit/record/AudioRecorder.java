@@ -272,7 +272,7 @@ public class AudioRecorder implements RecorderBase {
           maxSample = curSample;
         }
       }
-      //amplitude.set((int) (20 * Math.log10(maxSample / 32768.0)));
+      amplitude.set((int) (20 * Math.log10(maxSample / 32768.0)));
       amplitude.set((int) (maxAmplitude));
     }
 
